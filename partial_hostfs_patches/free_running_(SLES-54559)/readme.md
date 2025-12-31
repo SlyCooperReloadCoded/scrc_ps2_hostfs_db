@@ -4,7 +4,7 @@ This patch nearly completely separates the game from its disc image. It also dis
 
 Included is a PCSX2 pnach cheat file with the game's automatic gamefixes as well as the optional widescreen and 50 FPS patches. You'll need to move this cheat file to PCSX2's "cheats" directory and enable at least the Automatic Gamefixes cheat.
 
-Also included is a tiny 5 KB disc image containing a SYSTEM.CNF file and a massive padding file containing nothing but zeroes:
+Also included is a tiny 5 KB CHD-compressed disc image containing a SYSTEM.CNF file and a massive padding file containing nothing but zeroes:
 
 <img width="1835" height="986" alt="Capture" src="https://github.com/user-attachments/assets/3f237ebc-7aef-4cf9-bfbd-445883204f6d" />
 
@@ -15,5 +15,6 @@ You'll also need to manually set the game's automatic rendering fixes manually. 
 <img width="1431" height="724" alt="Capture" src="https://github.com/user-attachments/assets/241ca368-8d2c-4ed9-8017-e9b3d04791ad" />
 <img width="1426" height="927" alt="Capture2" src="https://github.com/user-attachments/assets/717cc530-906a-4094-8c3a-bc0613777772" />
 <img width="1433" height="942" alt="Capture3" src="https://github.com/user-attachments/assets/ba4c4793-1405-4dd1-b2df-6d9f3700bee3" />
+
 
 
