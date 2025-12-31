@@ -1,4 +1,4 @@
-# SlyCooperReloadCoded's HostFS Patch Database
+# ESGC PlayStation 2 Host Filesystem Patch Database
 
 This is a collection of Host Filesystem patches for PlayStation 2 games.
 
