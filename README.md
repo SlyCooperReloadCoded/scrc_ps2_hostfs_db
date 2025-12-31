@@ -30,4 +30,4 @@ These patches are in the form of [LunarIPS](https://www.romhacking.net/utilities
 
 **Q:** Did AI create any of these patches? Can AI create these patches? Will AI be able to create these patches?
 
-**A:** Close your browser, clear your mind, and start learning how to do things the morally-correct way: yourself - with your own brain and your own two hands. You'll become infinitely more skilled of a person and you'll thank me later. Seriously.
+**A:** Close your browser, clear your mind, and start learning how to do things the morally-correct way: yourself - with your own brain and your own two hands. You'll become infinitely more skilled of a person and you won't regret it.
