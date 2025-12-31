@@ -10,11 +10,12 @@ Also included is a tiny 5 KB CHD-compressed disc image containing a SYSTEM.CNF f
 
 This is enough for the game's SYSTEM.CNF check, so it's safe to distribute as it contains no copyrighted code. Put this into your "hostfs_games" folder rather than the original disc image.
 
-You'll also need to manually set the game's automatic rendering fixes manually. Use these screenshots as a guide:
+You'll also need to set the game's automatic rendering fixes manually. Use these screenshots as a guide:
 
 <img width="1431" height="724" alt="Capture" src="https://github.com/user-attachments/assets/241ca368-8d2c-4ed9-8017-e9b3d04791ad" />
 <img width="1426" height="927" alt="Capture2" src="https://github.com/user-attachments/assets/717cc530-906a-4094-8c3a-bc0613777772" />
 <img width="1433" height="942" alt="Capture3" src="https://github.com/user-attachments/assets/ba4c4793-1405-4dd1-b2df-6d9f3700bee3" />
+
 
 
 
