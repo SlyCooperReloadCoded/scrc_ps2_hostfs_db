@@ -22,6 +22,6 @@ A surprising amount of games actually have leftover host0 paths in their executa
 
 **A:** Apart from much faster loading times and seek times no longer being a factor, ease of modding is a big plus. Imagine a game that had a modding community because its game archives could be unpacked and repacked. Now imagine that game could actually read from extracted archives instead of packed archives. It would suck if you had to rebuild the game's ISO for every change you made, but if you were able to run a game from a directory on a blazing-fast storage medium instead of a disc image, that requirement would be gone, and the ability to load from extracted archives would have a valid use. Wouldn't that be the most ideal scenario? One of the patches in this repository is for a game that DOES have a completely loose filesystem with no compressed archives whatsoever, and it does benefit in this way.
 
-**Q:** [any AI-related question goes here]
+**Q:** Did AI create any of these patches? Can AI create these patches? Will AI be able to create these patches?
 
-**A:** Close your browser, go outside, and touch some grass. Seriously.
+**A:** Close your browser, clear your mind, and start learning how to do things the morally-correct way: yourself - with your own brain and your own two hands. You'll become infinitely more skilled of a person and you'll thank me later. Seriously.
