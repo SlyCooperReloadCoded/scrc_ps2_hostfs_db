@@ -1,2 +1,13 @@
-# scrc_ps2_hostfs_db
-A database of custom HostFS patches for PlayStation 2 games.
+## SlyCooperReloadCoded's HostFS Patch Database
+
+This is a collection of Host Filesystem patches for PlayStation 2 games.
+
+# What is Host Filesystem?
+
+The PlayStation 2 console has a lot of devices it can interface with, such as the disc drive (cdrom0), the memory cards (mc0/mc1), and the internal hard drive (hdd), but another one exists referred to internally as "host0". This is the Host Filesystem, and in the context of a devkit, it's a location on the same network that the devkit is connected to, and is where the actual game executable is. This is often used during a game's development, making it easier to switch out files since developers don't need to re-burn a new disc for every change they make.
+
+PCSX2, the PlayStation 2 emulator, has an option which simulates Host Filesystem, marking the directory the executable was launched in as the Host Filesystem, even if it's not literally on a network. Any software capable of reading from Host Filesystem will do so, and ***will not be limited to disc-reading speeds***, instead using the read speeds of the storage medium you have the files on. If your computer has an SSD, then files are read as fast as the software will allow. Wouldn't it be great if normal disc-based games could take advantage of this?
+
+Unfortunately, unlike Dolphin which can extract GameCube games and play them that way or a modded Xbox which can install games to an internal hard drive, the PlayStation 2 has many different types of file access methods, a handful requiring the files be on a disc specifically, and will fail to load certain files ***even if the path to the file is correct***. Some games go beyond this, hardcoding file reads to a specific method, and some games use custom methods. A select few, notably games that were released on CD-ROM, tend to read data from LBA, or a specific physical sector on the disc. The first three Sly Cooper games are a prime example of this, as they don't use files, instead reading from a hardcoded list of sectors stored in the game executable. This is why a disc image from any of those games will appear to be mostly empty if loaded in ISO-viewing software.
+
+A surprising amount of games actually have leftover host0 paths in their executable, and potentially even a flag that switches the game between cdrom0 and host0. Some games don't have such a flag, but play nicely if the cdrom0 paths are manually edited to be host0 paths. This repository contains Host Filesystem patches that I and others in the [Extreme Sports Game Collective Discord server](https://discord.gg/aHA8DTyuNZ) have created, since the Discord server is really obscure and it massively reduces the visibility of these patches. Credit will be given in each patch's folder where applicable.
