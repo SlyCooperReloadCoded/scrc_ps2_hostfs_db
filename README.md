@@ -2,7 +2,7 @@
 
 This is a collection of Host Filesystem patches for PlayStation 2 games.
 
-Note: this repository contains ***ABSOLUTELY NO ORIGINAL CODE OR COPYRIGHTED MATERIAL***! You are ***LEGALLY REQUIRED*** to dump your own physical copies of video games. Having a friend dump their copy or downloading it from the internet because your physical copy is too damaged to dump ***both still count as software piracy***.
+This repository contains ***ABSOLUTELY NO ORIGINAL CODE OR COPYRIGHTED MATERIAL***! You are ***LEGALLY REQUIRED*** to dump your own physical copies of video games. Having a friend dump their copy or downloading it from the internet because your physical copy is too damaged to dump ***BOTH STILL COUNT AS SOFTWARE PIRACY***.
 
 ## What is Host Filesystem?
 
