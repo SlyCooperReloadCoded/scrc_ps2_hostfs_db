@@ -16,12 +16,12 @@ A surprising amount of games actually have leftover host0 paths in their executa
 
 **Q:** Can every game get a Host Filesystem patch like the ones in this repository?
 
-**A:** No. As I explained before, lots of games are hardcoded to look for files from a disc location specifically. If you had the source code or a completed decompilation of one of these games, you COULD in theory write custom code to create such a patch, however at that point it would be more wise to port that game to other, more powerful systems that weren't limited in this way.
+**A:** No. Lots of games are hardcoded to look for files from a disc location specifically. If you had the source code or a completed decompilation of one of these games, you COULD in theory write custom code to create such a patch, however at that point it would be more wise to port that game to other, more powerful systems that weren't limited in this way.
 
 **Q:** What are some advantages to running games through the Host Filesystem?
 
-**A:** Apart from much faster loading times and seek times no longer being a factor, ease of modding is a big plus. Imagine a game that had a modding community because its game archives could be unpacked and repacked. Now imagine that game could actually read from extracted archives instead of packed archives. This would suck if you had to rebuild the game's ISO for every change you made, but if you were able to run a game from a directory on a blazing-fast storage medium instead of a disc image, wouldn't that be the most ideal scenario? One or more of the patches in this repository is for a game that DOES have a completely loose filesystem with no compressed archives whatsoever, and it does benefit in this way.
+**A:** Apart from much faster loading times and seek times no longer being a factor, ease of modding is a big plus. Imagine a game that had a modding community because its game archives could be unpacked and repacked. Now imagine that game could actually read from extracted archives instead of packed archives. It would suck if you had to rebuild the game's ISO for every change you made, but if you were able to run a game from a directory on a blazing-fast storage medium instead of a disc image, that requirement would be gone, and the ability to load from extracted archives would have a valid use. Wouldn't that be the most ideal scenario? One of the patches in this repository is for a game that DOES have a completely loose filesystem with no compressed archives whatsoever, and it does benefit in this way.
 
-**Q:** 
+**Q:** [any AI-related question goes here]
 
-**A:** 
+**A:** Close your browser, go outside, and touch some grass. Seriously.
